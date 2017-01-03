@@ -14,6 +14,7 @@
 		6A35A6471E1B89A5005567B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A35A6451E1B89A5005567B1 /* LaunchScreen.storyboard */; };
 		6A35A6521E1B89A5005567B1 /* TD1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A35A6511E1B89A5005567B1 /* TD1Tests.swift */; };
 		6A35A65D1E1B89A5005567B1 /* TD1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A35A65C1E1B89A5005567B1 /* TD1UITests.swift */; };
+		6AB290251E1B9DF800B719ED /* MyCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB290241E1B9DF800B719ED /* MyCustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6A35A6581E1B89A5005567B1 /* TD1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TD1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A35A65C1E1B89A5005567B1 /* TD1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TD1UITests.swift; sourceTree = "<group>"; };
 		6A35A65E1E1B89A5005567B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB290241E1B9DF800B719ED /* MyCustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				6A35A63C1E1B89A5005567B1 /* AppDelegate.swift */,
+				6AB290241E1B9DF800B719ED /* MyCustomViewController.swift */,
 				6A35A63E1E1B89A5005567B1 /* ViewController.swift */,
 				6A35A6401E1B89A5005567B1 /* Main.storyboard */,
 				6A35A6431E1B89A5005567B1 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB290251E1B9DF800B719ED /* MyCustomViewController.swift in Sources */,
 				6A35A63F1E1B89A5005567B1 /* ViewController.swift in Sources */,
 				6A35A63D1E1B89A5005567B1 /* AppDelegate.swift in Sources */,
 			);
@@ -418,7 +422,7 @@
 				DEVELOPMENT_TEAM = P698Y2AEGR;
 				INFOPLIST_FILE = TD1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = smaciolek.TD1;
+				PRODUCT_BUNDLE_IDENTIFIER = sebastianmaciolek.TD1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,7 +435,7 @@
 				DEVELOPMENT_TEAM = P698Y2AEGR;
 				INFOPLIST_FILE = TD1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = smaciolek.TD1;
+				PRODUCT_BUNDLE_IDENTIFIER = sebastianmaciolek.TD1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -514,6 +518,7 @@
 				6A35A6631E1B89A5005567B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A35A6641E1B89A5005567B1 /* Build configuration list for PBXNativeTarget "TD1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				6A35A6661E1B89A5005567B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A35A6671E1B89A5005567B1 /* Build configuration list for PBXNativeTarget "TD1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				6A35A6691E1B89A5005567B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
